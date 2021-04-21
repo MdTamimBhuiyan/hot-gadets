@@ -1,0 +1,103 @@
+body{
+    font-family: cursive;
+}
+h1{
+    font-family: Rubik;
+}
+h5{
+    font-family: Rubik;
+
+}
+p{
+    color: grey;
+}
+.bg{
+    background-image: url("images/bg-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 4rem;
+}
+.dot{
+    margin: 0;
+    width: 12%;
+
+}
+.buynow{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.container{
+    margin-top: 40px;
+    padding-left: 50px;
+}
+.box{
+    border: none;
+    border-radius: 1rem;
+    box-shadow:5px 5px 15px 5px #f2f2f2;
+    text-align: center;
+    padding:1rem;
+    justify-content: center;
+    margin:1rem 1rem 1rem 0;
+}
+.card-img, .card-img-bottom, .card-img-top {
+    width: 90%;
+}
+
+.take-to-right{
+    margin-left: 55%;
+    margin-right: none;
+    display: flex;
+    justify-content: end;
+}
+.logo img{
+    width: 8rem;
+}
+.carousel-indicators li{
+    background-color: lightgrey;
+    border-radius: 100px;
+    width: 15px;
+    height: 10px;
+}
+.carousel-indicators .active{
+    background-image: linear-gradient(to right, #ff9900, #ffd699);
+    width: 40px;
+}
+
+.catagory{
+    text-align: center;
+    font-size: 2.5rem;
+    color: black;
+    padding: 0.5rem;
+}
+.set-it-hand{
+    width: 35rem;
+}
+.bal{
+    border: none;
+    border-radius: 1rem;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 1rem;
+    box-shadow:5px 5px 15px 5px #f2f2f2;
+    margin:1rem 1rem 1rem 0;
+}
+.abal{
+    text-align: center;
+}
+.row{
+    margin-bottom: 5rem;
+}
+footer{
+    text-align: center;
+}
+hr{
+    width: 100px;
+    background-color: #ff9900;
+    height: 5px;
+    border-radius: 5px;
+    margin-top: -10px;
+}
